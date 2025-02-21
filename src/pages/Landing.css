@@ -1,0 +1,47 @@
+.auth-container{
+    height: 600px;
+    width: 500px;
+    background-color: #FFF5EE;
+    margin-left: 35%;
+    margin-top: 5%;
+    padding: 50px;
+    border-radius: 10%;
+    text-align: center;
+
+}
+
+/* .email{
+    margin-top: 10%;
+} */
+ .user{
+    margin-bottom:100px;
+ }
+
+.changebtn{
+    margin-top: 3%;
+}
+
+/* .info{
+    border-radius: 50%;
+} */
+
+/* .headingls{
+    font-size: 40px;
+    color: green;
+    margin-bottom: 50px;
+} */
+
+.signup{
+    margin-top: 25px;
+}
+
+/* .email{
+    width: 80%;
+    height: 100%;
+}
+
+.password{
+    margin-top: 10%;
+    width: 80%;
+    height: 100%;
+} */
