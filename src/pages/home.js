@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 // import { useNavigate } from "react-router-dom";
 // import { registerUser, loginUser } from "../firebase";
-import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './Landing.css'
 import Navbar from '../components/Navbar'
 import Homejpg from '../assets/home.jpg';
