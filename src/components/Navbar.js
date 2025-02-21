@@ -38,13 +38,13 @@ return (
             </li>
 {/* ********************************************************************************************************************** */}
 <DropdownButton id="dropdown-basic-button" title="Modules" menuVariant="dark" variant="outline-light"style={{border: "none", backgroundColor: "transparent", boxShadow:"none"}}>
-      <Dropdown.Item href="#/action-1">Module 1</Dropdown.Item>
-      <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-      <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+      <Dropdown.Item href="/">Module 1</Dropdown.Item>
+      <Dropdown.Item href="/">Another action</Dropdown.Item>
+      <Dropdown.Item href="/">Something else</Dropdown.Item>
     </DropdownButton>
 {/* ********************************************************************************************************************** */}
             <li className="nav-item">
-              <a className="nav-link" href="#">Quiz</a>
+              <a className="nav-link" href="/">Quiz</a>
             </li>
           </ul>
           <img
