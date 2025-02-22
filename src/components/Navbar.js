@@ -5,6 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 
+
 const Navbar = () => {
   const [isCollapsed, setIsCollapsed] = useState(true);
   const navigate = useNavigate();
@@ -38,15 +39,24 @@ return (
             </li>
 {/* ********************************************************************************************************************** */}
 <DropdownButton id="dropdown-basic-button" title="Modules" menuVariant="dark" variant="outline-light"style={{border: "none", backgroundColor: "transparent", boxShadow:"none"}}>
-      <Dropdown.Item href="/">Module 1</Dropdown.Item>
+      <Dropdown.Item href="/Phishing">Phishing</Dropdown.Item>
       <Dropdown.Item href="/">Another action</Dropdown.Item>
       <Dropdown.Item href="/">Something else</Dropdown.Item>
     </DropdownButton>
 {/* ********************************************************************************************************************** */}
-            <li className="nav-item">
-              <a className="nav-link" href="/">Quiz</a>
-            </li>
+            {/* <li className="nav-item">
+              <a className="nav-link" href="/quiz">Quiz</a>
+            </li> */}
+<DropdownButton id="dropdown-basic-button" title="Quiz" menuVariant="dark" variant="outline-light"style={{border: "none", backgroundColor: "transparent", boxShadow:"none", margin: " 0 0 0 10px"}}>
+      <Dropdown.Item href="/QuizA">Quiz 1</Dropdown.Item>
+      <Dropdown.Item href="/">Another action</Dropdown.Item>
+      <Dropdown.Item href="/">Something else</Dropdown.Item>
+    </DropdownButton>
+
           </ul>
+
+
+
           <img
             src={userpng} 
             alt="Profile"
