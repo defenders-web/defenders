@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { database, auth } from "../firebase"; // Import Firebase
+import { database } from "../firebase"; // Import Firebase
 import { ref, get, set } from "firebase/database";
 
 const QuizA = () => {
   const [questions, setQuestions] = useState([]); // Ensure it starts as an empty array
   const [userAnswers, setUserAnswers] = useState({});
   const [score, setScore] = useState(null);
-  const [user, setUser] = useState(null);
+  const [user] = useState(null);
   const [loading, setLoading] = useState(true);
 
   // Fetch authenticated user
