@@ -63,6 +63,9 @@ const Navbar = () => {
                 Cybersecurity Governence
               </Dropdown.Item>
               <Dropdown.Item href="/Keyloggers">Keyloggers</Dropdown.Item>
+              <Dropdown.Item href="/CloudSecurity">Cloud Security</Dropdown.Item>
+              <Dropdown.Item href="/Socialengineering">Social Engineering</Dropdown.Item>
+              <Dropdown.Item href="/DigitalSupplyChainSecurity">Digital Supply Chain Security</Dropdown.Item>
             </DropdownButton>
             {/* ********************************************************************************************************************** */}
             {/* <li className="nav-item">
@@ -82,11 +85,14 @@ const Navbar = () => {
             >
               <Dropdown.Item href="/QuizA">Quiz 1 (Phishing)</Dropdown.Item>
               <Dropdown.Item href="/QuizB">
-                Quiz 2 (IOT)
+                Quiz 2 (Artficial Intelligence)
               </Dropdown.Item>
-              <Dropdown.Item href="/QuizC">Quiz 3 (ArtficialIntelligence)</Dropdown.Item>
-              <Dropdown.Item href="/QuizD">Quiz 4 (CyberSecurity Governence)</Dropdown.Item>
+              <Dropdown.Item href="/QuizC">Quiz 3 (IOT)</Dropdown.Item>
+              <Dropdown.Item href="/QuizD">Quiz 4 (CyberSecurity Awareness)</Dropdown.Item>
               <Dropdown.Item href="/QuizE">Quiz 5 (Keyloggers)</Dropdown.Item>
+              <Dropdown.Item href="/QuizF">Quiz 6 (Cloud security)</Dropdown.Item>
+              <Dropdown.Item href="/QuizG">Quiz 7 (Social Engineering)</Dropdown.Item>
+              <Dropdown.Item href="/QuizH">Quiz 8 (Digital Supply Chain Security)</Dropdown.Item>
             </DropdownButton>
           </ul>
 
